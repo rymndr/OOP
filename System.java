@@ -485,10 +485,6 @@ public class System extends JFrame {
         
                                         
    
-    }//GEN-LAST:event_delete_buttonActionPerformed
-
-    private void search_tfActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_search_tfActionPerformed
-      
     }//GEN-LAST:event_search_tfActionPerformed
     private void setIconImage() {
        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("Icon.png")));
