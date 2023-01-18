@@ -361,7 +361,6 @@ public class System extends JFrame {
         try{
              FileWriter Writer = new FileWriter("C:\\Users\\Ren\\Desktop\\Database\\Information\\"+ studentid + "_"+ lastname+".txt");           
              Writer.write("StudentID: "+studentid+"\n"+"FirstName: "+firstname+"\n"+"LastName: "+lastname+"\n"+"Age: "+age+"\n"+"Address: "+address+"\n"+"Gender: "+gender+"\n"+"Course: "+course);
-             Writer.write(java.lang.System.getProperty("line.separator"));
              Writer.close();           
              setVisible(true);
             
